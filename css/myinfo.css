@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 561407 */
+    src: url('//at.alicdn.com/t/font_561407_nlh0m48crwg919k9.eot');
+    src: url('//at.alicdn.com/t/font_561407_nlh0m48crwg919k9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_561407_nlh0m48crwg919k9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_561407_nlh0m48crwg919k9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_561407_nlh0m48crwg919k9.svg#iconfont') format('svg');
+}
+body{
+    background: #f6f6f6;
+}
+header{
+    width:100%;
+    padding:0 0.24rem;
+    height:0.9rem;
+    line-height: 0.9rem;
+    color:#656565;
+    background: #fff;
+}
+header span{
+    float:left;
+    font-size: 0.4rem;
+    font-family: 'iconfont';
+    font-weight: bold;
+}
+header span:nth-child(2){
+    float:right;
+    margin-right: 0.21rem;
+}
+.content{
+    width:100%;
+    height:9.59rem;
+}
+.message{
+    width:100%;
+    height: 2.2rem;
+    background: #fff;
+}
+.message_box{
+    padding: 0.32rem 0 0.4rem 0.21rem;
+    height: 1.48rem;
+    /*background: blue;*/
+}
+.message_touxiang{
+    float:left;
+    width:1.48rem;
+    height: 1.48rem;
+    /*background: grey;*/
+}
+.message_touxiang img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.message_nicheng{
+    float:left;
+    width:2.03rem;
+    height: 1rem;
+    margin-top: 0.28rem;
+    margin-left: 0.2rem;
+    /*background: pink;*/
+}
+.message_nicheng span{
+    display:block;
+}
+.message_nicheng_top{
+    font-size: 0.39rem;
+    font-weight: bold;
+    color:#333333;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.message_nicheng_bottom{
+    margin-top: 0.3rem;
+    font-size: 0.23rem;
+    color:#666666;
+}
+.super{
+    float:left;
+    margin-left: 0.33rem;
+    margin-top: 0.18rem;
+    width:1.63rem;
+    height: 0.56rem;
+    border-radius: 0.28rem;
+    background:linear-gradient(#f4e0fe, #ffe3d8);
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.56rem;
+    color:#c359bf;
+}
+.qiaodao{
+    float:right;
+    text-align: center;
+    line-height: 0.58rem;
+    margin-top: 0.44rem;
+    width:1.46rem;
+    height: 0.58rem;
+    border-radius:0.29rem 0 0 0.29rem ;/* 左上角, 右上角, 右下角, 左下角 */
+    background: #ff6699;
+    font-size: 0.23rem;
+    color:#fff;
+}
+.qiaodao i{
+    font-family: 'iconfont';
+    margin-right: 0.12rem;
+}
+.order_info{
+    margin-top: 0.1rem;
+    width:100%;
+    height: 1.75rem;
+    background: #fff;
+}
+.order_info li{
+    float:left;
+    width:20%;
+    padding-top: 0.4rem;
+    /*background: blue;*/
+}
+.order_info li span{
+    display:block;
+    text-align:center;
+    color:#545454;
+    font-weight: bold;
+}
+.order_info li .icon{
+    font-family: 'iconfont';
+    font-size: 0.42rem;
+}
+.order_info li .wenzi{
+    font-size: 0.28rem;
+    margin-top: 0.2rem;
+}
+.wallet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:4.10rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    background: #fff;
+}
+.wallet_item{
+    width:1.58rem;
+    height: 1.58rem;
+    background: #eaf9f4;
+    text-align: center;
+    border-radius: 0.1rem;
+}
+.wallet_item_icon{
+    padding-top: 0.38rem;
+    font-family: 'iconfont';
+    font-size: 0.52rem;
+    line-height: 0.52rem;
+    color:#454e4d;
+}
+.wallet_item_wenzi{
+    font-size: 0.25rem;
+    line-height: 0.25rem;
+    color:#7f8c88;
+    margin-top: 0.2rem;
+}
+.guanggao{
+    width:100%;
+    height:1.27rem;
+    background: #fff;
+}
+.guanggao_left{
+    float:left;
+    padding-left: 1.08rem;
+    margin-top: 0.32rem;
+}
+.guanggao_left h2{
+    font-size: 0.27rem;
+    font-weight: bold;
+    color:#5b5b5b;
+}
+.guanggao_left p{
+    font-size: 0.22rem;
+    color:#6c6c6c;
+}
+.guanggao_right{
+    float:right;
+    margin-right: 0.2rem;
+    margin-top: 0.39rem;
+    width:0.95rem;
+    height: 0.49rem;
+    border-radius:0.245rem;
+    border:0.02rem solid #e5074b;
+    color:#e5074b;
+    text-align: center;
+    line-height: 0.49rem;
+    font-size: 0.24rem;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    width:100%;
+    height: 0.93rem;
+    border-top:0.02rem solid #cecece;
+    background: #fff;
+}
+footer .site{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .site li{
+    text-align: center;
+    width:25%;
+    height: 0.93rem;
+    /*background: red;*/
+}
+footer .site li span{
+    display:block;
+    text-align: center;
+
+}
+.site_icon{
+    font-family: 'iconfont';
+    font-size: 0.4rem;
+    line-height: 0.4rem;
+    color:#ed5785;
+    margin-top: 0.1rem;
+}
+.site_wenzi{
+    font-size: 0.21rem;
+    line-height: 0.21rem;
+    color:#a2a2a2;
+    margin-top: 0.09rem;
+}

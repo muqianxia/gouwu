@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 561407 */
+    src: url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.eot');
+    src: url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.svg#iconfont') format('svg');
+}
+header{
+    width:100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
+    font-size: 0.34rem;
+    color:#838383;
+    font-weight: bold;
+    border-bottom: 0.04rem solid #f1f4f8;
+}
+.content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0.94rem;
+    bottom: 0.95rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart{
+    width:100%;
+    height: 6.33rem;
+}
+.cart_top{
+    height: 3.46rem;
+}
+.cart_top img{
+    display: block;
+    margin: 0 auto;
+    width:2.12rem;
+    height: 2.5rem;
+    margin-top: 1.25rem;
+}
+.cart_top h2{
+    font-size: 0.27rem;
+    color:#727272;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.cart_bottom{
+    width:2.14rem;
+    height: 0.63rem;
+    border-radius: 0.315rem;
+    background: #ff6699;
+    font-size: 0.24rem;
+    color:#fff;
+    text-align: center;
+    line-height: 0.63rem;
+    margin:0 auto;
+}
+.favor h1{
+    text-align: center;
+    font-size: 0.25rem;
+    line-height: 1.01rem;
+}
+.favor_list{
+    width:100%;
+    height: auto;
+}
+.favor_item{
+    width:3.30rem;
+    height: 6.10rem;
+    margin-bottom: 0.3rem;
+    border-radius: 0.1rem;
+    /*background:red;*/
+}
+.favor_item img{
+    width:3.3rem;
+    height: 4.94rem;
+}
+.favor_desc{
+    width:100%;
+    height: 1.16rem;
+    padding:0 0.15rem;
+    border: 0.01rem solid #6c6c6c;
+    border-top: #e6e6e6;
+}
+.favor_desc h2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.25rem;
+    line-height:0.63rem;
+    color:#5b5b5b;
+}
+.favor_about{
+    line-height: 0.35rem;
+}
+.favor_price{
+    float:left;
+    font-size: 0.19rem;
+}
+.favor_shoucang{
+    float:right;
+    font-size: 0.19rem;
+    color:#434343;
+}
+.favor_shoucang i{
+    font-family: 'iconfont';
+    margin-left: 0.06rem;
+    font-size: 0.25rem;
+    color:#eeeeee;
+}
+.favor_item:nth-child(2n-1){
+    float:left;
+    margin-left: 0.2rem;
+}
+.favor_item:nth-child(2n){
+    float:right;
+    margin-right: 0.2rem;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    width:100%;
+    height: 0.93rem;
+    border-top:0.02rem solid #cecece;
+    background: #fff;
+}
+footer .site{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .site li{
+    text-align: center;
+    width:25%;
+    height: 0.93rem;
+    /*background: red;*/
+}
+footer .site li span{
+    display:block;
+    text-align: center;
+
+}
+.site_icon{
+    font-family: 'iconfont';
+    font-size: 0.4rem;
+    line-height: 0.4rem;
+    color:#ed5785;
+    margin-top: 0.1rem;
+}
+.site_wenzi{
+    font-size: 0.21rem;
+    line-height: 0.21rem;
+    color:#a2a2a2;
+    margin-top: 0.09rem;
+}

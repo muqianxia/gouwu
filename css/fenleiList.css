@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 561407 */
+    src: url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.eot');
+    src: url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.svg#iconfont') format('svg');
+}
+body{
+    background:#f2f5f8;
+}
+header{
+    width:100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    background: #fff;
+}
+.content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0.9rem;
+    bottom: 0;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search{
+    font-family: 'iconfont';
+    float:left;
+    margin-left: 0.21rem;
+    margin-top: 0.14rem;
+    padding-left: 0.21rem;
+    width:5.96rem;
+    height: 0.62rem;
+    line-height: 0.62rem;
+    background: #f2f5f8;
+    border:0;
+    outline: none;
+}
+.message{
+    float:right;
+    margin-right: 0.45rem;
+    font-family: 'iconfont';
+    font-size: 0.4rem;
+    color:#2f2f2f;
+    font-weight: bold;
+}
+.fenlei_list{
+    margin-top: 0.04rem;
+}
+.fenlei_list ul li{
+    background: #fff;
+    float:left;
+    text-align: center;
+    width:1.87rem;
+    height: 3.02rem;
+    border-right: 0.02rem solid #f7f9fb;
+    border-bottom: 0.02rem solid #f7f9fb;
+}
+.fenlei_list ul li img{
+    display:block;
+    margin:0 auto;
+    width:1.57rem;
+    height: 1.21rem;
+    margin-top: 0.8rem;
+}
+.fenlei_list ul li .wenzi{
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 0.23rem;
+    color:#7b7b7b;
+}
+.fenlei_list ul li:nth-child(4){
+    border-right: none;
+}
+.fashion{
+    width:100%;
+    height: auto;
+    margin-top: 0.12rem;
+    background: #fff;
+}
+.fashion_top{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height: 1.25rem;
+    background: #fff;
+}
+.fashion_title{
+    font-size: 0.27rem;
+    height: 0.54rem;
+}
+.fashion_title.active{
+    border-bottom: 0.04rem solid #242424;
+}
+.fashion_bottom{
+    width:100%;
+    height:auto;
+}
+.fashion_item{
+    width:3.45rem;
+    height: 6.78rem;
+    border-radius: 0.1rem;
+    background: #fff;
+    margin-bottom: 0.3rem;
+}
+.fashion_item img{
+    width:3.45rem;
+    height: 5.15rem;
+}
+.fashion_desc{
+    width:3.45rem;
+    height: 1.61rem;
+    /*border:0.02rem solid #e9e9e9;*/
+    border-top: 0;
+    margin-top: 0.14rem;
+    /*background: red;*/
+}
+.fashion_biaoqian{
+    padding-left: 0.11rem;
+    height: 0.69rem;
+}
+.fashion_biaoqian_item{
+    display:inline-block;
+    float:left;
+    width:auto;
+    font-size: 0.2rem;
+    color:#74768c;
+    height: 0.3rem;
+    border-radius: 0.05rem;
+    line-height: 0.3rem;
+    padding:0 0.05rem;
+    text-align: center;
+    background: #f2f5f8;
+    margin-right: 0.07rem;
+    margin-bottom: 0.09rem;
+}
+.fashion_price_box{
+    float:left;
+    width:100%;
+    height: 0.58rem;
+    line-height: 0.58rem;
+}
+.fashion_price{
+    padding-left: 0.11rem;
+    float:left;
+    font-size: 0.2rem;
+    color:#434343;
+    font-weight: bold;
+}
+.fashion_shoucang{
+    float:right;
+    margin-right: 0.09rem;
+    font-size: 0.2rem;
+    color:#2e2e2e;
+}
+.fashion_shoucang i{
+    font-family: 'iconfont';
+    margin-left: 0.05rem;
+    font-size: 0.28rem;
+    color:#eeeeee;
+}
+.fashion_item:nth-child(2n-1){
+    float:left;
+    margin-left: 0.2rem;
+}
+.fashion_item:nth-child(2n){
+    float:right;
+    margin-right: 0.2rem;
+}

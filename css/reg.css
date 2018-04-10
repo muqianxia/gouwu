@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 561407 */
+    src: url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.eot');
+    src: url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_561407_f1uuijni0z281tt9.svg#iconfont') format('svg');
+}
+input{
+    border:0;
+    outline:none;
+}
+header{
+    width: 100%;
+    height: 0.93rem;
+    line-height: 0.93rem;
+}
+.head_back{
+    padding-left: 0.31rem;
+    font-size: 0.38rem;
+    font-family: 'iconfont';
+    float:left;
+}
+.head_wenzi{
+    float:right;
+    font-size: 0.34rem;
+    color:#444444;
+    margin-right: 3.32rem;
+    letter-spacing: 0.1rem;
+}
+.diqu_box{
+    width: 6.87rem;
+    margin-left:0.31rem;
+    height: 1.76rem;
+    border-bottom: 0.02rem solid #e8e8e8;
+    /*background: red;*/
+}
+.diqu_top{
+    font-size: 0.26rem;
+    color:#656565;
+    text-align: center;
+    line-height: 0.89rem;
+}
+.diqu_bottom{
+    width: 100%;
+    height: 0.87rem;
+    line-height: 0.87rem;
+}
+.diqu_wenzi{
+    float:left;
+    margin-left:2.34rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color:#2c2c2c;
+}
+.diqu_wenzi i{
+    font-size: 0.38rem;
+    color:#999999;
+    margin-left: 0.15rem;
+}
+.diqu_icon{
+    float:right;
+    font-family: 'iconfont';
+    font-size: 0.3rem;
+}
+.phone_box{
+    position:relative;
+    margin-top: 0.28rem;
+    width: 6.87rem;
+    height: 1.76rem;
+    margin-left:0.31rem;
+    border-bottom: 0.03rem solid #e8e8e8;
+}
+.phone_box p{
+    font-size: 0.28rem;
+    color:#6c6c6c;
+    line-height: 0.9rem;
+    text-align: center;
+}
+.phone{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 0.86rem;
+    font-size: 0.48rem;
+    color:#ededed;
+    text-align: center;
+    line-height: 0.86rem;
+}
+.code_box{
+    position: relative;
+}
+.code_box a{
+    position:absolute;
+    right:0;
+    bottom: 0.3rem;
+    font-size:0.25rem;
+    color:#ff5676;
+}
+.next{
+    width: 6.87rem;
+    margin-left:0.31rem;
+    height: 1.02rem;
+    border-radius: 0.1rem;
+    background: #ff3366;
+    color:#fff;
+    font-size: 0.3rem;
+}
+footer{
+    position: absolute;
+    bottom:0.4rem;
+    padding-left: 0.31rem;
+    font-size: 0.23rem;
+    color:#aeaeae;
+}
